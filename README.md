@@ -1,7 +1,7 @@
 # techday-website
 website of techday conference
 
-link: https://techday.github.io/techday-website/
+link: https://techday.github.io
 
 # How to see on localhost
 
