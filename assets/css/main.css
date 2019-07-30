@@ -1756,6 +1756,7 @@ header.sticky_header {
 footer {
   padding: 50px 0 100px;
   background-color: #0b031b;
+  text-align: center;
 }
 footer .footer_box {
   position: relative;
@@ -1779,6 +1780,7 @@ footer .footer_header {
   margin-bottom: 30px;
 }
 footer .footer_social {
+  display: inline-table;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -2656,7 +2658,6 @@ Cover
 -------------------------------------------------------- */
 .table.event_calender {
   position: relative;
-  min-width: 1000px;
 }
 .table.event_calender thead.event_title {
   background-color: #f50136;
@@ -3164,4 +3165,113 @@ textarea.form-control {
 }
 .accordion_card .card-body {
   font-size: 16px;
+}
+
+.calendar {
+	width: 100%;
+	background: #fff;
+	padding-top: 115px;
+	padding-bottom: 111px;
+	padding-left: 141px;
+	padding-right: 141px
+}
+
+.calendar_container {
+	width: 100%;
+	background: #f0f2f6
+}
+
+.calendar_title_bar {
+	width: 100%;
+	height: 68px;
+	padding-left: 26px;
+	background-color: #4867c0;
+	background-image: linear-gradient(to right, #4867c0, #329fec);
+	background: #4867c0;
+	background: linear-gradient(to right, #4867c0, #329fec)
+}
+
+.calendar_icon {
+	width: 27px;
+	height: 25px
+}
+
+.calendar_icon img {
+	max-width: 100%
+}
+
+.calendar_title {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 19px
+}
+
+.calendar_items {
+	width: 100%;
+	padding-top: 55px;
+	padding-bottom: 61px
+}
+
+.calendar_item {
+	width: 100%;
+	padding-left: 39px
+}
+
+.calendar_item:not(:last-child) {
+	margin-bottom: 35px
+}
+
+.calendar_item_image {
+	width: 103px;
+	height: 103px;
+	border-radius: 50%;
+	overflow: hidden
+}
+
+.calendar_item_image img {
+	max-width: 100%
+}
+
+.calendar_item_time {
+	margin-left: 74px
+}
+
+.calendar_item_time div:first-child {
+	font-size: 30px;
+	font-weight: 500;
+	color: #4c4c4c;
+	line-height: .75
+}
+
+.calendar_item_time div:last-child {
+	font-size: 14px;
+	font-weight: 500;
+	color: #4c4c4c;
+	margin-top: 11px
+}
+
+.calendar_item_text {
+	margin-left: 111px
+}
+
+.calendar_item_text div:first-child {
+	font-size: 18px;
+	font-weight: 500;
+	color: #4c4c4c
+}
+
+.calendar_item_text div:nth-child(2) {
+	font-size: 16px;
+	font-weight: 400;
+	color: #888;
+	margin-top: 2px
+}
+
+.calendar_item_text div:last-child {
+	font-size: 14px;
+	font-weight: 400;
+	color: #888;
+	margin-top: 5px
 }
