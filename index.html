@@ -383,6 +383,8 @@
     </div>
     <!--footer end -->
 
+    <button onclick="_top()" id="back-top" class="btn btn-toolbar">Voltar ao topo</button>
+
     <!-- jquery -->
     <script src="assets/js/jquery.min.js"></script>
     <!-- bootstrap -->
@@ -401,6 +403,25 @@
     <script src="assets/js/wow.min.js"></script>
     <!-- Custom js -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        window.onscroll = function() {
+            _scroll();
+        };
+
+        function _scroll() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-top").style.display = "block";
+            } else {
+                document.getElementById("back-top").style.display = "none";
+            }
+        }
+
+        function _top() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        } 
+    </script>
 </body>
 
 </html>

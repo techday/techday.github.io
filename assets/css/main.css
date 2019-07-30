@@ -3276,3 +3276,11 @@ textarea.form-control {
 	color: #888;
 	margin-top: 5px
 }
+
+#back-top {
+  display: block;
+  bottom: 20px;
+  right: 30px;
+  position: fixed;
+  z-index: 99;
+}
