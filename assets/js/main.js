@@ -82,7 +82,7 @@ $(document).ready(function() {
     });
 
     $(".brand_carousel").owlCarousel({
-        loop:true,
+        loop:false,
         autoplay:true,
         smartSpeed:450,
         autoplayHoverPause:false,
@@ -94,15 +94,15 @@ $(document).ready(function() {
                 items:2
             },
             600:{
-                items:3
+                items:2
 
             },
             1000:{
-                items:5
+                items:2
 
             }
         },
-        items:5
+        items:2
     });
     /* ------------------------------------- */
     /* Animated progress bars
