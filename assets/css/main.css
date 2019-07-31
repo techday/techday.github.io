@@ -3288,3 +3288,7 @@ textarea.form-control {
 .dot {
   cursor: pointer;
 }
+
+.modal-body > img {
+  float: left;
+}
