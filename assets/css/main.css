@@ -3284,3 +3284,7 @@ textarea.form-control {
   position: fixed;
   z-index: 99;
 }
+
+.dot {
+  cursor: pointer;
+}
