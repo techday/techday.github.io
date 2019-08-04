@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +40,7 @@
     <header class="header navbar fixed-top navbar-expand-md">
         <div class="container">
             <a class="navbar-brand logo" href="#">
-                <img src="assets/img/logo.png" alt="Evento" />
+                <p class="logo">Techday 2019</p>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +72,7 @@
     <!--cover section slider -->
     <section id="home" class="home-cover">
         <div class="cover_slider owl-carousel owl-theme">
-            <div class="cover_item" style="background: url('assets/img/bg/slider.jpg');">
+            <div class="cover_item" style="background-color: grey;">
                 <div class="slider_content">
                     <div class="slider-content-inner">
                         <div class="container">
@@ -90,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cover_item" style="background: url('assets/img/bg/slider.jpg');">
+            <div class="cover_item" style="background-color: grey;">
                 <div class="slider_content">
                     <div class="slider-content-inner">
                         <div class="container">
@@ -110,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cover_item" style="background: url('assets/img/bg/slider.jpg');">
+            <div class="cover_item" style="background-color: grey;">
                 <div class="slider_content">
                     <div class="slider-content-inner">
                         <div class="container">
@@ -146,53 +148,57 @@
         <div class="container">
             <div class="section_title">
                 <h3 class="title">
-                    Sobre
+                    Techday
                 </h3>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-md-6 content-size">
                     <p>
-                        O Techday é um evento voltado ao público entusiasta da computação. O evento abrange duas vertentes:
-                        Jobs e Trends.
+                        O Techday é um evento voltado ao público entusiasta da computação, focado em trazer a melhor
+                        experiência em conteúdo, com os mais feras da àrea.
+                        Temos duas trilhas <span class="font-la">TechJobs</span> e <span
+                            class="font-la">TechTrends</span>
                     </p>
-                </div>
-                <div class="col-12 col-md-6">
                     <p>
-                        Enquanto o Techjobs é focado na parte de mercado e carreiras, o Techtrends tem como ênfase as tecnologias da computação 
+                        No Techjobs iremos focar na parte de mercado e carreiras, enquanto no Techtrends teremos como ênfase as
+                        tecnologias da computação
                         que são têndencias e estão em ascenção.
                     </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="icon_box_one">
+                                <i class="lnr lnr-mic"></i>
+                                <div class="content">
+                                    <h4>Palestras</h4>
+                                    <p>
+                                        Tremblish, Bind, Elixir? Não sabe qual escolher?
+                                        Não fique na dúvida, veja abaixo os detalhes das nossas paletras.
+                                    </p>
+                                    <a href="#programacao">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="icon_box_one">
+                                <i class="lnr lnr-rocket"></i>
+                                <div class="content">
+                                    <h4>Workshops</h4>
+                                    <p>
+                                        Quer saber mais sobre aquele workshop maneiro de Datascience ou aquele framework
+                                        da moda que todo mundo fala?
+                                    </p>
+                                    <a href="#programacao">Dá uma olhada aí</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!--event features-->
-            <div class="row justify-content-center mt30">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-mic"></i>
-                        <div class="content">
-                            <h4>Palestras</h4>
-                            <p>
-                                Tremblish, Bind, Elixir? Não sabe qual escolher?
-                                Não fique na dúvida, veja abaixo os detalhes das nossas paletras.
-                            </p>
-                            <a href="#programacao">Confira aqui</a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-rocket"></i>
-                        <div class="content">
-                            <h4>Workshops</h4>
-                            <p>
-                                Quer saber mais sobre aquele workshop maneiro de Datascience ou aquele framework da moda que todo mundo fala?
-                            </p>
-                            <a href="#programacao">Dá uma olhada aí</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!--event features end-->
         </div>
     </section>
@@ -240,15 +246,17 @@
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                     <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                        <button type="button" class="close"
+                                                            data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
                                                     </div>
                                                     <div class="modal-body">
                                                         <img src="https://via.placeholder.com/200" alt="">
                                                         <p>Some text in the modal.</p>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-default"
+                                                            data-dismiss="modal">Close</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -276,15 +284,17 @@
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                     <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                        <button type="button" class="close"
+                                                            data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
                                                     </div>
                                                     <div class="modal-body">
                                                         <img src="https://via.placeholder.com/200" alt="">
                                                         <p>Some text in the modal.</p>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-default"
+                                                            data-dismiss="modal">Close</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -328,15 +338,17 @@
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                     <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                        <button type="button" class="close"
+                                                            data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
                                                     </div>
                                                     <div class="modal-body">
                                                         <img src="https://via.placeholder.com/200" alt="">
                                                         <p>Some text in the modal.</p>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-default"
+                                                            data-dismiss="modal">Close</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -364,15 +376,17 @@
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                     <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                        <button type="button" class="close"
+                                                            data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
                                                     </div>
                                                     <div class="modal-body">
                                                         <img src="https://via.placeholder.com/200" alt="">
                                                         <p>Some text in the modal.</p>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-default"
+                                                            data-dismiss="modal">Close</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -400,15 +414,17 @@
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                     <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                        <button type="button" class="close"
+                                                            data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
                                                     </div>
                                                     <div class="modal-body">
                                                         <img src="https://via.placeholder.com/200" alt="">
                                                         <p>Some text in the modal.</p>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-default"
+                                                            data-dismiss="modal">Close</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -436,15 +452,17 @@
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                     <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                        <button type="button" class="close"
+                                                            data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
                                                     </div>
                                                     <div class="modal-body">
                                                         <img src="https://via.placeholder.com/200" alt="">
                                                         <p>Some text in the modal.</p>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-default"
+                                                            data-dismiss="modal">Close</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -485,15 +503,12 @@
         <div class="container">
             <div class="section_title mb30">
                 <h3 class="title color-light">
-                    Inscrição
+                    Faça já sua inscrição
                 </h3>
             </div>
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-9 text-md-left text-center color-light">
-                    Faça já sua inscrição via Sympla
-                </div>
-                <div class="col-md-3 text-md-right text-center">
-                    <a href="#" class="btn btn-primary btn-rounded mt30">Inscreva-se</a>
+                <div class="col-md-12 text-center">
+                    <a href="#" class="btn btn-primary btn-rounded mt30" style="font-size: 150%">Inscreva-se aqui!</a>
                 </div>
             </div>
         </div>
@@ -508,7 +523,7 @@
                     <div class="footer_box">
                         <div class="footer_header">
                             <div class="footer_logo">
-                                <img src="assets/img/logo.png" alt="evento">
+                                <p class="footer-logo">Techday 2019</p>
                             </div>
                         </div>
                         <div class="footer_box_body">

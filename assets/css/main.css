@@ -130,6 +130,22 @@ ul.nosyely_list {
   top: 0;
 }
 
+.section_title .sub_title {
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 25px;
+  font-family: 'Lacquer', sans-serif;
+}
+
+.section_title .sub_title:before {
+  width: 30px;
+  content: " ";
+  position: absolute;
+  border-top: solid 3px #f50136;
+  left: 0;
+  top: 0;
+}
+
 .countdown {
   text-align: center;
 }
@@ -2307,7 +2323,7 @@ Cover
 .icon_box_one {
   background-color: #f0f2f6;
   padding: 0;
-  margin: 25px 0;
+  margin: 0;
   position: relative;
   overflow: hidden;
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
@@ -2343,7 +2359,6 @@ Cover
   color: #f50136;
   font-size: 14px;
   font-weight: 600;
-  text-transform: capitalize;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -3291,4 +3306,26 @@ textarea.form-control {
 
 .modal-body > img {
   float: left;
+}
+
+.logo {
+  font-family: 'Lacquer', sans-serif;
+  font-size: 150%;
+  color: white;
+}
+
+.footer-logo {
+  font-family: 'Lacquer', sans-serif;
+  font-size: 200%;
+  color: white;
+}
+
+.content-size > p {
+  font-size: 120%;
+}
+
+.font-la{
+  font-family: 'Lacquer', sans-serif;
+  color: red;
+  font-size: 140%;
 }
