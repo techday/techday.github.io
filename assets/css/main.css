@@ -182,11 +182,6 @@ ul.nosyely_list {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.brand_item {
-  opacity: 0.3;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-}
 .brand_item img {
   display: block;
   max-width: 130px;
