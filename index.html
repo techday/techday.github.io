@@ -92,54 +92,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="cover_item" style="background-color: grey;">
-                <div class="slider_content">
-                    <div class="slider-content-inner">
-                        <div class="container">
-                            <div class="slider-content-left">
-                                <h2 class="cover-title">
-                                    Venha para o
-                                </h2>
-                                <strong class="cover-xl-text">TechDay</strong>
-                                <p class="cover-date">
-                                    18-19 Setembro 2019 - Maceió, AL.
-                                </p>
-                                <a href="#" class=" btn btn-primary btn-rounded">
-                                    Obtenha o seu ingresso
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cover_item" style="background-color: grey;">
-                <div class="slider_content">
-                    <div class="slider-content-inner">
-                        <div class="container">
-                            <div class="slider-content-center">
-                                <h2 class="cover-title">
-                                    Venha para o
-                                </h2>
-                                <strong class="cover-xl-text">TechDay</strong>
-                                <p class="cover-date">
-                                    18-19 Setembro 2019 - Maceió, AL.
-                                </p>
-                                <a href="#" class=" btn btn-primary btn-rounded">
-                                    Obtenha o seu ingresso
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
-        <!--<div class="cover_nav">
-            <ul class="cover_dots">
-                <li class="active dot" data="0"><span>1</span></li>
-                <li data="1" class="dot"><span>2</span></li>
-                <li data="2" class="dot"><span>3</span></li>
-            </ul>
-        </div>-->
     </section>
     <!--cover section slider end -->
 
@@ -205,206 +158,521 @@
     <!--about the event end -->
 
     <!--event calendar-->
-    <section class="pt100 pb100" id="programacao">
+    <section class="pt10 pb10" id="programacao">
         <div class="container">
             <div class="section_title">
                 <h3 class="title">
                     Programação
                 </h3>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="table-responsive">
-                        <table class="event_calender table">
-                            <thead class="event_title">
-                                <tr>
-                                    <th colspan="2">
-                                        <i class="ion-ios-calendar-outline"></i>
-                                        <span>TECHJOBS</span>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!--<tr>
-                                    <td>
-                                        <div class="event_place">
-                                            <h5>Palestra 1</h5>
-                                            <h6>08:00 - 09:00</h6>
-                                            <p>Palestrante: Fulano de Tal</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div>
-                                            <a data-toggle="modal" data-target="#myModal">
-                                                <img src="https://via.placeholder.com/200" alt="">
-                                            </a>
-                                        </div>
-
-                                        
-                                        <div class="modal fade" id="myModal" role="dialog">
-                                            <div class="modal-dialog">
-                                                
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close"
-                                                            data-dismiss="modal">&times;</button>
-                                                        <h4 class="modal-title">Modal Header</h4>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img src="https://via.placeholder.com/200" alt="">
-                                                        <p>Some text in the modal.</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-default"
-                                                            data-dismiss="modal">Close</button>
+            <div class="row pb10" style="margin-left: 1.1px;">
+                <div class="inline">
+                    <button id="btn18" class="btn btn-primary active">Dia 18</button>
+                    <button id="btn19" class="btn btn-primary">Dia 19</button>
+                </div>
+            </div>
+            <div id="day18">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="table-responsive">
+                            <table class="event_calender table">
+                                <thead class="event_title">
+                                    <tr>
+                                        <th colspan="2">
+                                            <i class="ion-ios-calendar-outline"></i>
+                                            <span>TECHJOBS</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Carreiras na computação relacionadas à saúde - mercado e academia</h5>
+                                                <p>Palestrante: Aydano Pamponet Machado</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#aydanoModal">
+                                                    <img src="assets/img/speakers/aydano.jpeg" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="aydanoModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Aydano Pamponet Machado</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="assets/img/speakers/aydano.jpeg" alt="">
+                                                            <p>Pesquisador que trabalha de maneira interdisciplinar conectando a Ciência da Computação com a Medicina, a Fisioterapia e a Educação. Professor Associado do Instituto de Computação (IC) da UFAL e Professor Permanente do Programa de Pós-Graduação em Modelagem Computacional de Conhecimento (PPGMCC) da UFAL, onde atuou 4 anos como coordenador e 1 ano como vice-coordenador. Possui doutorado em Ciência da Computação pela Université Pierre et Marie Curie com o trabalho realizado no Laboratoire d'Informatique de Paris 6-LIP6, mestrado em Ciência da Computação pela Universidade Federal de Pernambuco e graduação em Ciência da Computação pela Universidade Federal de Alagoas. Tem experiência na área de Ciência da Computação, com ênfase em Inteligência Artificial. Atuando principalmente na aplicação de Aprendizagem de Máquina nas áreas da Medicina. Também possui larga experiência no desenvolvimento de soluções baseadas em tecnologia e inovação. É co-fundador da BrAIn Soluções em Tecnologia LTDA e foi co-fundador da Rino Soluções em Tecnologia LTDA</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>-->
-                                <tr>
-                                    <td>
-                                        <div class="event_place">
-                                            <h5>Carreiras na computação relacionadas à saúde - mercado e academia</h5>
-                                            <p>Palestrante: Aydano Pamponet Machado</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div>
-                                            <a data-toggle="modal" data-target="#aydanoModal">
-                                                <img src="assets/img/speakers/aydano.jpeg" alt="">
-                                            </a>
-                                        </div>
-
-                                        
-                                        <div class="modal fade" id="aydanoModal" role="dialog">
-                                            <div class="modal-dialog">
-                                                
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close"
-                                                            data-dismiss="modal">&times;</button>
-                                                        <h4 class="modal-title">Aydano Pamponet Machado</h4>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img src="assets/img/speakers/aydano.jpeg" alt="">
-                                                        <p>Pesquisador que trabalha de maneira interdisciplinar conectando a Ciência da Computação com a Medicina, a Fisioterapia e a Educação. Professor Associado do Instituto de Computação (IC) da UFAL e Professor Permanente do Programa de Pós-Graduação em Modelagem Computacional de Conhecimento (PPGMCC) da UFAL, onde atuou 4 anos como coordenador e 1 ano como vice-coordenador. Possui doutorado em Ciência da Computação pela Université Pierre et Marie Curie com o trabalho realizado no Laboratoire d'Informatique de Paris 6-LIP6, mestrado em Ciência da Computação pela Universidade Federal de Pernambuco e graduação em Ciência da Computação pela Universidade Federal de Alagoas. Tem experiência na área de Ciência da Computação, com ênfase em Inteligência Artificial. Atuando principalmente na aplicação de Aprendizagem de Máquina nas áreas da Medicina. Também possui larga experiência no desenvolvimento de soluções baseadas em tecnologia e inovação. É co-fundador da BrAIn Soluções em Tecnologia LTDA e foi co-fundador da Rino Soluções em Tecnologia LTDA</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-default"
-                                                            data-dismiss="modal">Close</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="table-responsive">
+                            <table class="event_calender table">
+                                <thead class="event_title">
+                                    <tr>
+                                        <th colspan="2">
+                                            <i class="ion-ios-calendar-outline"></i>
+                                            <span>TECHTRENDS</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!--<tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Palestra 1</h5>
+                                                <h6>08:00 - 09:00</h6>
+                                                <p>Palestrante: Beltrano de Tous</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#myModal">
+                                                    <img src="https://via.placeholder.com/200" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="myModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Modal Header</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="https://via.placeholder.com/200" alt="">
+                                                            <p>Some text in the modal.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Palestra 2</h5>
+                                                <h6>09:30 - 10:00</h6>
+                                                <p>Palestrante: Feltrano de Tal</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#myModal">
+                                                    <img src="https://via.placeholder.com/200" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="myModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Modal Header</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="https://via.placeholder.com/200" alt="">
+                                                            <p>Some text in the modal.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>-->
+                                    <tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Workshop: Data Science</h5>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#dsModal">
+                                                    <img src="assets/img/ds.png" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="dsModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Workshop: Data Science</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="assets/img/ds.png" alt="">
+                                                            <p>
+                                                                    Workshop realizado com o objetivo de introduzir o mundo da Ciência de Dados e suas ferramentas mais utilizadas atualmente.
+                                                                 <br>Esse workshop irá abordar os seguintes tópicos:
+                                                                <ul>
+                                                                    <li>O que é Ciência de Dados?</li>
+                                                                    <li>Para que serve Ciência de Dados</li>
+                                                                    <li>Como manipular dados</li>
+                                                                    <li>Como visualizar dados</li>
+                                                                    <li>Como aplicar Inteligência Artificial em seus dados</li>
+                                                                </ul>
+                                                                Programação:
+                                                                <ul>
+                                                                    <li>Apresentação das ferramentas mais utilizadas para ciência de dados:</li>
+                                                                    <ul>
+                                                                        <li>Manipulação de dados: Numpy + Pandas</li>
+                                                                        <li>Visualização de dados: Matplot + seaborn</li>
+                                                                        <li>Machine Learning: Scikit</li>
+                                                                    </ul>
+                                                                    <li>Projeto que irá incorporar uma pipeline completa do processo de KDD e aplicação de técnicas de Machine Learning na criação de modelos preditivos</li>
+                                                                </ul>
+                                                                
+                                                                Pré-requisitos:
+                                                                <ul>
+                                                                    <li>Lógica de programação - Nível: Básico</li>
+                                                                    <li>Linguagem Python - Nível: Básico</li>
+                                                                </ul>
+                                                                
+                                                                Duração: 3 horas
+                                                                </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!--<tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Workshop 2</h5>
+                                                <h6>08:00 - 09:00</h6>
+                                                <p>Instrutor: Beltrano de Tous</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#myModal">
+                                                    <img src="https://via.placeholder.com/200" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="myModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Modal Header</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="https://via.placeholder.com/200" alt="">
+                                                            <p>Some text in the modal.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>-->
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+            </div>
+
+            <div id="day19">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="table-responsive">
+                            <table class="event_calender table">
+                                <thead class="event_title">
+                                    <tr>
+                                        <th colspan="2">
+                                            <i class="ion-ios-calendar-outline"></i>
+                                            <span>TECHJOBS</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Carreiras na computação relacionadas à saúde - mercado e academia</h5>
+                                                <p>Palestrante: Aydano Pamponet Machado</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#aydanoModal">
+                                                    <img src="assets/img/speakers/aydano.jpeg" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="aydanoModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Aydano Pamponet Machado</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="assets/img/speakers/aydano.jpeg" alt="">
+                                                            <p>Pesquisador que trabalha de maneira interdisciplinar conectando a Ciência da Computação com a Medicina, a Fisioterapia e a Educação. Professor Associado do Instituto de Computação (IC) da UFAL e Professor Permanente do Programa de Pós-Graduação em Modelagem Computacional de Conhecimento (PPGMCC) da UFAL, onde atuou 4 anos como coordenador e 1 ano como vice-coordenador. Possui doutorado em Ciência da Computação pela Université Pierre et Marie Curie com o trabalho realizado no Laboratoire d'Informatique de Paris 6-LIP6, mestrado em Ciência da Computação pela Universidade Federal de Pernambuco e graduação em Ciência da Computação pela Universidade Federal de Alagoas. Tem experiência na área de Ciência da Computação, com ênfase em Inteligência Artificial. Atuando principalmente na aplicação de Aprendizagem de Máquina nas áreas da Medicina. Também possui larga experiência no desenvolvimento de soluções baseadas em tecnologia e inovação. É co-fundador da BrAIn Soluções em Tecnologia LTDA e foi co-fundador da Rino Soluções em Tecnologia LTDA</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="table-responsive">
+                            <table class="event_calender table">
+                                <thead class="event_title">
+                                    <tr>
+                                        <th colspan="2">
+                                            <i class="ion-ios-calendar-outline"></i>
+                                            <span>TECHTRENDS</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!--<tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Palestra 1</h5>
+                                                <h6>08:00 - 09:00</h6>
+                                                <p>Palestrante: Beltrano de Tous</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#myModal">
+                                                    <img src="https://via.placeholder.com/200" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="myModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Modal Header</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="https://via.placeholder.com/200" alt="">
+                                                            <p>Some text in the modal.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Palestra 2</h5>
+                                                <h6>09:30 - 10:00</h6>
+                                                <p>Palestrante: Feltrano de Tal</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#myModal">
+                                                    <img src="https://via.placeholder.com/200" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="myModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Modal Header</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="https://via.placeholder.com/200" alt="">
+                                                            <p>Some text in the modal.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>-->
+                                    <tr>
+                                        <td>
+                                            <div class="event_place">
+                                                <h5>Workshop: Data Science</h5>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-toggle="modal" data-target="#dsModal">
+                                                    <img src="assets/img/ds.png" alt="">
+                                                </a>
+                                            </div>
+    
+                                            
+                                            <div class="modal fade" id="dsModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Workshop: Data Science</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <img src="assets/img/ds.png" alt="">
+                                                            <p>
+                                                                    Workshop realizado com o objetivo de introduzir o mundo da Ciência de Dados e suas ferramentas mais utilizadas atualmente.
+                                                                 <br>Esse workshop irá abordar os seguintes tópicos:
+                                                                <ul>
+                                                                    <li>O que é Ciência de Dados?</li>
+                                                                    <li>Para que serve Ciência de Dados</li>
+                                                                    <li>Como manipular dados</li>
+                                                                    <li>Como visualizar dados</li>
+                                                                    <li>Como aplicar Inteligência Artificial em seus dados</li>
+                                                                </ul>
+                                                                Programação:
+                                                                <ul>
+                                                                    <li>Apresentação das ferramentas mais utilizadas para ciência de dados:</li>
+                                                                    <ul>
+                                                                        <li>Manipulação de dados: Numpy + Pandas</li>
+                                                                        <li>Visualização de dados: Matplot + seaborn</li>
+                                                                        <li>Machine Learning: Scikit</li>
+                                                                    </ul>
+                                                                    <li>Projeto que irá incorporar uma pipeline completa do processo de KDD e aplicação de técnicas de Machine Learning na criação de modelos preditivos</li>
+                                                                </ul>
+                                                                
+                                                                Pré-requisitos:
+                                                                <ul>
+                                                                    <li>Lógica de programação - Nível: Básico</li>
+                                                                    <li>Linguagem Python - Nível: Básico</li>
+                                                                </ul>
+                                                                
+                                                                Duração: 3 horas
+                                                                </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--event calendar end -->
+
+    <!-- workshops -->
+    <section class="pt10 pb10" id="programacao">
+        <div class="container">
+            <div class="section_title">
+                <h3 class="title">
+                    Workshops
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
                     <div class="table-responsive">
-                        <table class="event_calender table">
-                            <thead class="event_title">
+                        <table class=" table">
+                            <thead class="workshop_title">
                                 <tr>
                                     <th colspan="2">
-                                        <i class="ion-ios-calendar-outline"></i>
-                                        <span>TECHTRENDS</span>
+                                        <span>Data Science</span>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <!--<tr>
-                                    <td>
-                                        <div class="event_place">
-                                            <h5>Palestra 1</h5>
-                                            <h6>08:00 - 09:00</h6>
-                                            <p>Palestrante: Beltrano de Tous</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div>
-                                            <a data-toggle="modal" data-target="#myModal">
-                                                <img src="https://via.placeholder.com/200" alt="">
-                                            </a>
-                                        </div>
-
-                                        
-                                        <div class="modal fade" id="myModal" role="dialog">
-                                            <div class="modal-dialog">
-                                                
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close"
-                                                            data-dismiss="modal">&times;</button>
-                                                        <h4 class="modal-title">Modal Header</h4>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img src="https://via.placeholder.com/200" alt="">
-                                                        <p>Some text in the modal.</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-default"
-                                                            data-dismiss="modal">Close</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
                                 <tr>
                                     <td>
                                         <div class="event_place">
-                                            <h5>Palestra 2</h5>
-                                            <h6>09:30 - 10:00</h6>
-                                            <p>Palestrante: Feltrano de Tal</p>
+                                            <h5>Introdução a ciência de dados e suas ferramentas mais utilizadas no mundo corporativo.</h5>
                                         </div>
                                     </td>
                                     <td>
-                                        <div>
-                                            <a data-toggle="modal" data-target="#myModal">
-                                                <img src="https://via.placeholder.com/200" alt="">
-                                            </a>
-                                        </div>
 
-                                        
-                                        <div class="modal fade" id="myModal" role="dialog">
-                                            <div class="modal-dialog">
-                                                
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close"
-                                                            data-dismiss="modal">&times;</button>
-                                                        <h4 class="modal-title">Modal Header</h4>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img src="https://via.placeholder.com/200" alt="">
-                                                        <p>Some text in the modal.</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-default"
-                                                            data-dismiss="modal">Close</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>-->
-                                <tr>
-                                    <td>
-                                        <div class="event_place">
-                                            <h5>Workshop: Data Science</h5>
-                                        </div>
-                                    </td>
-                                    <td>
                                         <div>
                                             <a data-toggle="modal" data-target="#dsModal">
                                                 <img src="assets/img/ds.png" alt="">
                                             </a>
                                         </div>
-
                                         
                                         <div class="modal fade" id="dsModal" role="dialog">
                                             <div class="modal-dialog">
@@ -456,44 +724,6 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <!--<tr>
-                                    <td>
-                                        <div class="event_place">
-                                            <h5>Workshop 2</h5>
-                                            <h6>08:00 - 09:00</h6>
-                                            <p>Instrutor: Beltrano de Tous</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div>
-                                            <a data-toggle="modal" data-target="#myModal">
-                                                <img src="https://via.placeholder.com/200" alt="">
-                                            </a>
-                                        </div>
-
-                                        
-                                        <div class="modal fade" id="myModal" role="dialog">
-                                            <div class="modal-dialog">
-                                                
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close"
-                                                            data-dismiss="modal">&times;</button>
-                                                        <h4 class="modal-title">Modal Header</h4>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <img src="https://via.placeholder.com/200" alt="">
-                                                        <p>Some text in the modal.</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-default"
-                                                            data-dismiss="modal">Close</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>-->
                             </tbody>
                         </table>
                     </div>
@@ -501,7 +731,8 @@
             </div>
         </div>
     </section>
-    <!--event calendar end -->
+
+    <!-- end workshops -->
 
     <!--brands section -->
     <section id="parceiros" class="bg-gray pt100 pb100">
@@ -647,6 +878,27 @@
         $('.dot').click(function () {
             $(".cover_slider").trigger('to.owl.carousel', [$(this).index(), 300]);
         });
+
+        $("#btn18").click(() => {
+            $("#day18").hide();
+            $("#day19").show();
+            $("#btn19").removeClass('active');
+            $("#btn18").addClass('active');
+        });
+
+        $("#btn19").click(() => {
+            $("#day19").show();
+            $("#day18").hide();
+            $("#btn18").removeClass('active');
+            $("#btn19").addClass('active');
+        });
+
+        (function() {
+            $("#day18").show();
+            $("#day19").hide();
+        })();
+
+        
     </script>
 </body>
 

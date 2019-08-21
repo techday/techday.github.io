@@ -37,39 +37,50 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #18181c;
   line-height: 1.3;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 48px;
   margin-bottom: 25px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 42px;
   margin-bottom: 25px;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 36px;
   margin-bottom: 25px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 24px;
   margin-bottom: 15px;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
   margin-bottom: 15px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -114,7 +125,6 @@ ul.nosyely_list {
 
 .section_title {
   position: relative;
-  margin-bottom: 25px;
 }
 .section_title .title {
   text-transform: uppercase;
@@ -134,7 +144,7 @@ ul.nosyely_list {
   text-transform: uppercase;
   padding: 10px 0;
   font-size: 25px;
-  font-family: 'Lacquer', sans-serif;
+  font-family: "Lacquer", sans-serif;
 }
 
 .section_title .sub_title:before {
@@ -154,7 +164,7 @@ ul.nosyely_list {
   display: inline-block;
   padding: 25px;
   min-width: 120px;
-  background-color: #F44336;
+  background-color: #f44336;
   color: #ffffff;
   font-size: 48px;
   font-weight: 600;
@@ -282,33 +292,39 @@ img {
 }
 
 @media (max-width: 768px) {
-  h1, .h1 {
+  h1,
+  .h1 {
     font-size: 28px;
     margin-bottom: 15px;
     font-weight: 700;
   }
 
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 24px;
     margin-bottom: 15px;
   }
 
-  h3, .h3 {
+  h3,
+  .h3 {
     font-size: 20px;
     margin-bottom: 15px;
   }
 
-  h4, .h4 {
+  h4,
+  .h4 {
     font-size: 16px;
     margin-bottom: 10px;
   }
 
-  h5, .h5 {
+  h5,
+  .h5 {
     font-size: 14px;
     margin-bottom: 10px;
   }
 
-  h6, .h6 {
+  h6,
+  .h6 {
     font-size: 12px;
     margin-bottom: 5px;
   }
@@ -349,7 +365,8 @@ img {
   top: calc(50% - 20px);
   border-right: 0;
   border-top-color: transparent;
-  -webkit-animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+  -webkit-animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41)
+    infinite;
   animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
 }
 
@@ -439,12 +456,18 @@ img {
 }
 
 .bg-grad-purple {
-  background: #8C66CA;
-  background: linear-gradient(135deg, #E25574 0%, #8C66CA 100%);
+  background: #8c66ca;
+  background: linear-gradient(135deg, #e25574 0%, #8c66ca 100%);
 }
 
 .bg-macaroni {
-  background: -webkit-gradient(linear, left top, right top, from(#ff5f6d), to(#ffc371));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff5f6d),
+    to(#ffc371)
+  );
   background: linear-gradient(90deg, #ff5f6d 0%, #ffc371 100%);
 }
 
@@ -1692,7 +1715,7 @@ header li ul.sub_menu {
   padding: 10px;
   border-radius: 3px;
   -webkit-box-shadow: 1px 1px 42px rgba(0, 0, 0, 0.08);
-          box-shadow: 1px 1px 42px rgba(0, 0, 0, 0.08);
+  box-shadow: 1px 1px 42px rgba(0, 0, 0, 0.08);
 }
 header li ul.sub_menu li {
   display: block;
@@ -1732,7 +1755,7 @@ header.sticky_header {
   font-size: 22px;
   outline: 0 !important;
   -webkit-box-shadow: 0 0 0 !important;
-          box-shadow: 0 0 0 !important;
+  box-shadow: 0 0 0 !important;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -1894,7 +1917,7 @@ footer .newsletter_form .form-control {
 .btn:focus {
   outline: 0 !important;
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-          box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
 .btn-sm {
@@ -2070,11 +2093,15 @@ Cover
   opacity: 0;
   -webkit-transform: translateY(20px);
   transform: translateY(20px);
-  -webkit-transition: transform  0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out;
-  -webkit-transition: opacity 0.4s 1200ms ease-in-out, -webkit-transform  0.4s 1200ms ease-in-out;
-  transition: opacity 0.4s 1200ms ease-in-out, -webkit-transform  0.4s 1200ms ease-in-out;
-  transition: transform  0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out;
-  transition: transform  0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, -webkit-transform  0.4s 1200ms ease-in-out;
+  -webkit-transition: transform 0.4s 1200ms ease-in-out,
+    opacity 0.4s 1200ms ease-in-out;
+  -webkit-transition: opacity 0.4s 1200ms ease-in-out,
+    -webkit-transform 0.4s 1200ms ease-in-out;
+  transition: opacity 0.4s 1200ms ease-in-out,
+    -webkit-transform 0.4s 1200ms ease-in-out;
+  transition: transform 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out;
+  transition: transform 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out,
+    -webkit-transform 0.4s 1200ms ease-in-out;
 }
 .cover_slider .active .slider_content .slider-content-inner * .cover-title {
   opacity: 1;
@@ -2101,9 +2128,15 @@ Cover
   opacity: 1;
   -webkit-transform: translateY(0px);
   transform: translateY(0px);
-  -webkit-transition: all 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, color 0.4s ease-in-out, border 0.4s  ease-in-out, background-color 0.4s  ease-in-out;
-  -webkit-transition: all 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, color 0.4s  ease-in-out, border 0.4s  ease-in-out, background-color 0.4s  ease-in-out;
-  transition: all 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, color 0.4s  ease-in-out, border 0.4s  ease-in-out, background-color 0.4s  ease-in-out;
+  -webkit-transition: all 0.4s 1200ms ease-in-out,
+    opacity 0.4s 1200ms ease-in-out, color 0.4s ease-in-out,
+    border 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  -webkit-transition: all 0.4s 1200ms ease-in-out,
+    opacity 0.4s 1200ms ease-in-out, color 0.4s ease-in-out,
+    border 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: all 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out,
+    color 0.4s ease-in-out, border 0.4s ease-in-out,
+    background-color 0.4s ease-in-out;
 }
 .cover_slider .owl-dots {
   bottom: 25px;
@@ -2289,7 +2322,11 @@ Cover
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
     font-size: 18px;
   }
-  .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
+  .cover_slider
+    .cover_item
+    .slider_content
+    .slider-content-inner
+    .cover-xl-text {
     font-size: 46px;
   }
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
@@ -2322,7 +2359,7 @@ Cover
   position: relative;
   overflow: hidden;
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
-          box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -2363,7 +2400,7 @@ Cover
 }
 .icon_box_one:hover {
   -webkit-box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
   background-color: #f50136;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -2487,7 +2524,7 @@ Cover
 .speaker_box:hover .speaker_img img {
   width: 100%;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -2569,7 +2606,7 @@ Cover
 .price_box:hover {
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -2577,7 +2614,7 @@ Cover
 .price_box.active {
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -2648,7 +2685,8 @@ Cover
   margin: 25px 0;
   padding: 15px 5px;
 }
-.counter_box span, .counter_box .counter {
+.counter_box span,
+.counter_box .counter {
   font-size: 48px;
   display: inline-block;
   margin: 0;
@@ -2695,13 +2733,15 @@ Cover
 .table.event_calender tbody {
   background-color: #f0f2f6;
 }
-.table.event_calender tbody td, .table.event_calender tbody th {
+.table.event_calender tbody td,
+.table.event_calender tbody th {
   padding: 30px 25px;
   border: 0;
   vertical-align: middle;
   text-align: center;
 }
-.table.event_calender tbody td img, .table.event_calender tbody th img {
+.table.event_calender tbody td img,
+.table.event_calender tbody th img {
   border-radius: 4px;
   display: block;
   max-width: 100px;
@@ -3138,7 +3178,7 @@ textarea.form-control {
   background: rgba(245, 1, 54, 0.2);
   border-radius: 1px;
   -webkit-box-shadow: 0 0 0;
-          box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
 }
 .single_progressbar .progress .progress-bar {
   height: 4px;
@@ -3179,112 +3219,112 @@ textarea.form-control {
 }
 
 .calendar {
-	width: 100%;
-	background: #fff;
-	padding-top: 115px;
-	padding-bottom: 111px;
-	padding-left: 141px;
-	padding-right: 141px
+  width: 100%;
+  background: #fff;
+  padding-top: 115px;
+  padding-bottom: 111px;
+  padding-left: 141px;
+  padding-right: 141px;
 }
 
 .calendar_container {
-	width: 100%;
-	background: #f0f2f6
+  width: 100%;
+  background: #f0f2f6;
 }
 
 .calendar_title_bar {
-	width: 100%;
-	height: 68px;
-	padding-left: 26px;
-	background-color: #4867c0;
-	background-image: linear-gradient(to right, #4867c0, #329fec);
-	background: #4867c0;
-	background: linear-gradient(to right, #4867c0, #329fec)
+  width: 100%;
+  height: 68px;
+  padding-left: 26px;
+  background-color: #4867c0;
+  background-image: linear-gradient(to right, #4867c0, #329fec);
+  background: #4867c0;
+  background: linear-gradient(to right, #4867c0, #329fec);
 }
 
 .calendar_icon {
-	width: 27px;
-	height: 25px
+  width: 27px;
+  height: 25px;
 }
 
 .calendar_icon img {
-	max-width: 100%
+  max-width: 100%;
 }
 
 .calendar_title {
-	font-size: 18px;
-	font-weight: 500;
-	text-transform: uppercase;
-	color: #fff;
-	margin-left: 19px
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 19px;
 }
 
 .calendar_items {
-	width: 100%;
-	padding-top: 55px;
-	padding-bottom: 61px
+  width: 100%;
+  padding-top: 55px;
+  padding-bottom: 61px;
 }
 
 .calendar_item {
-	width: 100%;
-	padding-left: 39px
+  width: 100%;
+  padding-left: 39px;
 }
 
 .calendar_item:not(:last-child) {
-	margin-bottom: 35px
+  margin-bottom: 35px;
 }
 
 .calendar_item_image {
-	width: 103px;
-	height: 103px;
-	border-radius: 50%;
-	overflow: hidden
+  width: 103px;
+  height: 103px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .calendar_item_image img {
-	max-width: 100%
+  max-width: 100%;
 }
 
 .calendar_item_time {
-	margin-left: 74px
+  margin-left: 74px;
 }
 
 .calendar_item_time div:first-child {
-	font-size: 30px;
-	font-weight: 500;
-	color: #4c4c4c;
-	line-height: .75
+  font-size: 30px;
+  font-weight: 500;
+  color: #4c4c4c;
+  line-height: 0.75;
 }
 
 .calendar_item_time div:last-child {
-	font-size: 14px;
-	font-weight: 500;
-	color: #4c4c4c;
-	margin-top: 11px
+  font-size: 14px;
+  font-weight: 500;
+  color: #4c4c4c;
+  margin-top: 11px;
 }
 
 .calendar_item_text {
-	margin-left: 111px
+  margin-left: 111px;
 }
 
 .calendar_item_text div:first-child {
-	font-size: 18px;
-	font-weight: 500;
-	color: #4c4c4c
+  font-size: 18px;
+  font-weight: 500;
+  color: #4c4c4c;
 }
 
 .calendar_item_text div:nth-child(2) {
-	font-size: 16px;
-	font-weight: 400;
-	color: #888;
-	margin-top: 2px
+  font-size: 16px;
+  font-weight: 400;
+  color: #888;
+  margin-top: 2px;
 }
 
 .calendar_item_text div:last-child {
-	font-size: 14px;
-	font-weight: 400;
-	color: #888;
-	margin-top: 5px
+  font-size: 14px;
+  font-weight: 400;
+  color: #888;
+  margin-top: 5px;
 }
 
 #back-top {
@@ -3304,13 +3344,13 @@ textarea.form-control {
 }
 
 .logo {
-  font-family: 'Lacquer', sans-serif;
+  font-family: "Lacquer", sans-serif;
   font-size: 150%;
   color: white;
 }
 
 .footer-logo {
-  font-family: 'Lacquer', sans-serif;
+  font-family: "Lacquer", sans-serif;
   font-size: 200%;
   color: white;
 }
@@ -3319,8 +3359,13 @@ textarea.form-control {
   font-size: 120%;
 }
 
-.font-la{
-  font-family: 'Lacquer', sans-serif;
+.font-la {
   color: red;
-  font-size: 140%;
+  text-transform: uppercase;
+}
+
+.workshop_title {
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
 }
